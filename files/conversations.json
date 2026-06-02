@@ -1,0 +1,74 @@
+{
+  "default": [
+    {
+      "turn": 1,
+      "timestamp": "2026-06-02T18:59:10Z",
+      "user": "hi",
+      "bot": "Hello! How may I assist you today?",
+      "intent": "other",
+      "language": "english",
+      "top_score": 1.6219,
+      "escalated": false
+    },
+    {
+      "turn": 2,
+      "timestamp": "2026-06-02T18:59:39Z",
+      "user": "Mujhe airport drop chahiye, kaise arrange karu?",
+      "bot": "Airport drop ke liye, aap hotel shuttle use kar sakte hain jo Indira Gandhi International Airport ke liye scheduled hai. Yeh subah 4:00 AM, 8:00 AM, dopahar 1:00 PM, aur shaam 6:00 PM par depart karti hai. Iske liye front desk se 3 ghante pehle booking karna zaroori hai.\n\nAap cab/taxi bhi arrange karwa sakte hain. Concierge Ola, Uber, aur pre-paid cabs arrange karte hain.",
+      "intent": "amenity_question",
+      "language": "hinglish",
+      "top_score": 1.39,
+      "escalated": false
+    },
+    {
+      "turn": 3,
+      "timestamp": "2026-06-02T19:07:38Z",
+      "user": "How much does a Deluxe Room cost per night?",
+      "bot": "I'm sorry, I don't have that information. Please contact the front desk at extension 0.",
+      "intent": "booking_inquiry",
+      "language": "english",
+      "top_score": 1.264,
+      "escalated": false
+    },
+    {
+      "turn": 4,
+      "timestamp": "2026-06-02T19:08:03Z",
+      "user": "Does the hotel have a rooftop swimming pool or a casino?",
+      "bot": "I'm sorry, I don't have that information. Please contact the front desk at extension 0.",
+      "intent": "amenity_question",
+      "language": "hinglish",
+      "top_score": 1.0434,
+      "escalated": false
+    },
+    {
+      "turn": 5,
+      "timestamp": "2026-06-02T19:10:35Z",
+      "user": "Bhai, restaurant mein breakfast kab milta hai",
+      "bot": "Breakfast subah 7:00 AM se 10:30 AM tak milta hai. Buffet mein eggs-to-order station, fresh fruit, cereals, South Indian, aur Continental options hote hain.",
+      "intent": "amenity_question",
+      "language": "hinglish",
+      "top_score": 1.3507,
+      "escalated": false
+    },
+    {
+      "turn": 6,
+      "timestamp": "2026-06-02T19:11:12Z",
+      "user": "क्या होटल में Wi-Fi फ्री है और नेटवर्क का नाम क्या है?",
+      "bot": "I'm sorry, I don't have that information. Please contact the front desk at extension 0.",
+      "intent": "amenity_question",
+      "language": "hindi",
+      "top_score": 0.8398,
+      "escalated": false
+    },
+    {
+      "turn": 7,
+      "timestamp": "2026-06-02T19:12:41Z",
+      "user": "होटल में चेक-इन और चेक-आउट का समय क्या है?",
+      "bot": "होटल में चेक-इन का समय दोपहर 3:00 बजे है और चेक-आउट का समय दोपहर 12:00 बजे (दोपहर) है।",
+      "intent": "booking_inquiry",
+      "language": "hindi",
+      "top_score": 0.9775,
+      "escalated": false
+    }
+  ]
+}
